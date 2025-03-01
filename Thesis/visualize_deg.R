@@ -43,7 +43,7 @@ de_transcripts <- stattest(bg_ON_filt,feature="transcript",covariate="sex",adjus
 # the results_transcripts does not contain identifiers. we will therefore add this information
 
 #add identifiers
-de_transcripts = data.frame(geneNames=ballgown::geneNames(bg_ON_filt), geneIDs=ballgown::geneIDs(bg_chrX_filt), de_transcripts)
+de_transcripts = data.frame(geneNames=ballgown::geneNames(bg_ON_filt), geneIDs=ballgown::geneIDs(bg_ON_filt), de_transcripts)
 
 # Let's test on genes
 de_genes <- stattest(bg_ON_filt,feature="gene",covariate="sex",adjustvars = c("population"),getFC=TRUE, meas="FPKM")
@@ -130,7 +130,7 @@ dev.off()
 #https://davetang.org/muse/2017/10/25/getting-started-hisat-stringtie-ballgown/
 
 png('plots/maplot.png',width = 1800, height = 1000)
-de_transcripts$mean <- rowMeans(texpr(bg_chrX_filt))
+de_transcripts$mean <- rowMeans(texpr(bg_ON_filt))
 maplot=ggplot(de_transcripts, aes(log2(mean), log2(fc), colour = qval<0.05)) +
   scale_color_manual(values=c("#999999", "#FF0000")) +
   geom_point() +
