@@ -1,0 +1,3 @@
+Functional Enrichment analysis
+Extract trancriptomic data from NCBI project, Normalize it using bash and R script 
+Create heatmap of CA gene family members from the RNA-Seq data
