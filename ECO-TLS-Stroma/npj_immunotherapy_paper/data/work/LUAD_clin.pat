@@ -1,0 +1,7 @@
+patient.bcr_patient_barcode
+patient.days_to_death
+patient.days_to_last_followup
+patient.vital_status
+patient.age_at_initial_pathologic_diagnosis
+patient.gender
+patient.stage_event.pathologic_stage

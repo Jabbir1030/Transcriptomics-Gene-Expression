@@ -1,0 +1,26 @@
+sample_id,response01,response_label
+Pt1,0,Progressive Disease
+Pt2,1,Partial Response
+Pt4,1,Partial Response
+Pt5,1,Partial Response
+Pt6,1,Partial Response
+Pt7,0,Progressive Disease
+Pt8,1,Complete Response
+Pt9,1,Complete Response
+Pt10,0,Progressive Disease
+Pt12,0,Progressive Disease
+Pt13,1,Complete Response
+Pt14,0,Progressive Disease
+Pt15,1,Partial Response
+Pt19,1,Partial Response
+Pt20,0,Progressive Disease
+Pt22,0,Progressive Disease
+Pt23,0,Progressive Disease
+Pt25,0,Progressive Disease
+Pt28,1,Partial Response
+Pt29,0,Progressive Disease
+Pt31,0,Progressive Disease
+Pt32,0,Progressive Disease
+Pt35,1,Partial Response
+Pt37,1,Partial Response
+Pt38,1,Partial Response
